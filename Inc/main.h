@@ -49,6 +49,8 @@ extern "C" {
 /* USER CODE BEGIN EM */
 void PWM_Config_LED(uint32_t Freq, uint32_t Duty);
 void PWM_Config_LV(uint32_t Freq, uint8_t Duty);
+void PWM_Config_far(uint32_t Freq, uint8_t Duty);
+
 /* USER CODE END EM */
 
 /* Exported functions prototypes ---------------------------------------------*/

@@ -1,8 +1,8 @@
 Dependencies for Project 'LED_USART_3', Target 'LED_USART_3': (DO NOT MODIFY !)
 CompilerVersion: 6160000::V6.16::ARMCLANG
 F (startup_stm32f103xb.s)(0x66B45B35)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1"-I./RTE/_LED_USART_3-ID:/STM32/keil/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/STM32/keil/Keil/STM32F1xx_DFP/1.0.5/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o led_usart_3/startup_stm32f103xb.o)
-F (../Src/main.c)(0x66B6D929)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_LED_USART_3-ID:/STM32/keil/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/STM32/keil/Keil/STM32F1xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o led_usart_3/main.o -MD)
-I (..\Inc\main.h)(0x66B45B57)
+F (../Src/main.c)(0x66B769BC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_LED_USART_3-ID:/STM32/keil/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/STM32/keil/Keil/STM32F1xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o led_usart_3/main.o -MD)
+I (..\Inc\main.h)(0x66B767A0)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x656EFE35)
 I (..\Inc\stm32f1xx_hal_conf.h)(0x66B45B32)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x656EFE35)
@@ -34,12 +34,12 @@ I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x656EFE35)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x656EFE35)
 I (..\Inc\tim.h)(0x66B45B31)
 I (..\Inc\usart.h)(0x66B45B32)
-I (..\Inc\gpio.h)(0x66B45C79)
+I (..\Inc\gpio.h)(0x66B76863)
 I (D:\STM32\keil\ARM\ARMCLANG\include\string.h)(0x603507D0)
 I (D:\STM32\keil\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
 F (../Src/gpio.c)(0x66B45B31)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_LED_USART_3-ID:/STM32/keil/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/STM32/keil/Keil/STM32F1xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o led_usart_3/gpio.o -MD)
-I (..\Inc\gpio.h)(0x66B45C79)
-I (..\Inc\main.h)(0x66B45B57)
+I (..\Inc\gpio.h)(0x66B76863)
+I (..\Inc\main.h)(0x66B767A0)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x656EFE35)
 I (..\Inc\stm32f1xx_hal_conf.h)(0x66B45B32)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x656EFE35)
@@ -71,7 +71,7 @@ I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x656EFE35)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x656EFE35)
 F (../Src/tim.c)(0x66B45B31)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_LED_USART_3-ID:/STM32/keil/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/STM32/keil/Keil/STM32F1xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o led_usart_3/tim.o -MD)
 I (..\Inc\tim.h)(0x66B45B31)
-I (..\Inc\main.h)(0x66B45B57)
+I (..\Inc\main.h)(0x66B767A0)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x656EFE35)
 I (..\Inc\stm32f1xx_hal_conf.h)(0x66B45B32)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x656EFE35)
@@ -103,7 +103,7 @@ I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x656EFE35)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x656EFE35)
 F (../Src/usart.c)(0x66B45B31)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_LED_USART_3-ID:/STM32/keil/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/STM32/keil/Keil/STM32F1xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o led_usart_3/usart.o -MD)
 I (..\Inc\usart.h)(0x66B45B32)
-I (..\Inc\main.h)(0x66B45B57)
+I (..\Inc\main.h)(0x66B767A0)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x656EFE35)
 I (..\Inc\stm32f1xx_hal_conf.h)(0x66B45B32)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x656EFE35)
@@ -135,7 +135,7 @@ I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x656EFE35)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x656EFE35)
 I (D:\STM32\keil\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
 F (../Src/stm32f1xx_it.c)(0x66B45B32)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_LED_USART_3-ID:/STM32/keil/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/STM32/keil/Keil/STM32F1xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o led_usart_3/stm32f1xx_it.o -MD)
-I (..\Inc\main.h)(0x66B45B57)
+I (..\Inc\main.h)(0x66B767A0)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x656EFE35)
 I (..\Inc\stm32f1xx_hal_conf.h)(0x66B45B32)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x656EFE35)
@@ -167,7 +167,7 @@ I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x656EFE35)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x656EFE35)
 I (..\Inc\stm32f1xx_it.h)(0x66B45B32)
 F (../Src/stm32f1xx_hal_msp.c)(0x66B45B32)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I./RTE/_LED_USART_3-ID:/STM32/keil/ARM/CMSIS/5.8.0/CMSIS/Core/Include-ID:/STM32/keil/Keil/STM32F1xx_DFP/1.0.5/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o led_usart_3/stm32f1xx_hal_msp.o -MD)
-I (..\Inc\main.h)(0x66B45B57)
+I (..\Inc\main.h)(0x66B767A0)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x656EFE35)
 I (..\Inc\stm32f1xx_hal_conf.h)(0x66B45B32)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x656EFE35)

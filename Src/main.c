@@ -97,6 +97,7 @@ char ch;
   /* USER CODE BEGIN 2 */
 		PWM_Config_LED(1000, 50);
 		PWM_Config_LV(2000, 100);
+		PWM_Config_far(1000, 40);
 
   /* USER CODE END 2 */
 
@@ -240,7 +241,7 @@ void PWM_Config_LED(uint32_t Freq, uint32_t Duty)
     __HAL_TIM_SetCompare(&htim2, TIM_CHANNEL_3, ccr);
 		__HAL_TIM_SetCompare(&htim2, TIM_CHANNEL_4, ccr); 
 		__HAL_TIM_SetCompare(&htim1, TIM_CHANNEL_4, ccr);
-		__HAL_TIM_SetCompare(&htim1, TIM_CHANNEL_3, ccr);
+		
 	 
 }
 void PWM_Config_LV(uint32_t Freq, uint8_t Duty)
@@ -253,6 +254,14 @@ void PWM_Config_LV(uint32_t Freq, uint8_t Duty)
     __HAL_TIM_SetCompare(&htim4, TIM_CHANNEL_3, ccr);
 		__HAL_TIM_SetCompare(&htim4, TIM_CHANNEL_4, ccr);
 	 
+}
+
+void PWM_Config_far(uint32_t Freq, uint8_t Duty)
+{
+ uint32_t arr = 1000000 / Freq - 1;
+	uint32_t ccr = (uint32_t)Duty * arr / 100;
+	__HAL_TIM_SetAutoreload(&htim1, arr);
+	__HAL_TIM_SetCompare(&htim1, TIM_CHANNEL_3, ccr);
 }
 /* USER CODE END 4 */
 
